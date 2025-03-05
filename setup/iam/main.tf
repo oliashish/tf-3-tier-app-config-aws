@@ -1,6 +1,9 @@
+#  IAM policy requirement for 3-tier web application.
+# TODO: Needs to be updated to least-privilaged permissions to perform all the actions
+
 provider "aws" {
   region = "eu-west-1"
-#   profile = "terraform-user"
+  #   profile = "terraform-user"
 }
 
 resource "aws_iam_user" "terraform_user" {
