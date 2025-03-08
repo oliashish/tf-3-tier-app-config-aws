@@ -1,0 +1,7 @@
+vpc_cidr_block            = ""
+subnet_public_cidr_block  = ""
+subnet_private_cidr_block = ""
+ami_id                    = ""
+instance_type             = ""
+key_name                  = ""
+file_name                 = ""
